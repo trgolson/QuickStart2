@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [21,2],
+    "Dimensions": [42,2],
     "Body": [
      "","en-US",
      "Acknowledge","Acknowledge",
@@ -31,6 +31,27 @@ Children:
      "Low State","Low",
      "Refresh","Refresh",
      "From","From",
-     "To","To"
+     "To","To",
+     "RecipeControllerRecipeLoaded","Recipe loaded",
+     "RecipeControllerCreatedAndSaved","created and saved",
+     "RecipeControllerSaved","saved",
+     "RecipeControllerDeleted","deleted",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty",
+     "RecipeControllerRecipe","Recipe",
+     "RecipeControllerRecipeApplied","Recipe applied",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
+     "RecipesEditorRecipeNotFound","Recipe not found",
+     "RecipesEditorNotARecipe","is not a recipe",
+     "RecipesEditorStoreOfSchema","Store of schema",
+     "RecipesEditorNotSet","is not set",
+     "RecipesEditorNotFound","not found",
+     "RecipesEditorStore","Store",
+     "RecipesEditorNotAStore","is not a store",
+     "RecipesEditorEditModelOfSchema","EditModel of schema",
+     "Save","Save",
+     "Delete","Delete",
+     "Load","Load",
+     "Apply","Apply"
     ]
    }

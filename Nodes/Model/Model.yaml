@@ -1,15 +1,19 @@
 Name: Model
+Id: g=eff9c2932126d0fd540822f685ab8952
 Type: ModelCategoryFolder
 Children:
 - Name: Ingredient01
+  Id: g=8b96be09419ede7226566c9756dd41fc
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
 - Name: Ingredient02
+  Id: g=0ddc60c1cf4bf782c285e30429bbe7b1
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
 - Name: Ingredient03
+  Id: g=5671c37d29d120c0d29c6c3afabf8915
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
@@ -23,3 +27,8 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: ToggleStyleSheet
+  Id: g=e5764b4f1a3f37b7ff23b1c3e148ccca
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
