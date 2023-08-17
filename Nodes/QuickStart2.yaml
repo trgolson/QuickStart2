@@ -1,43 +1,54 @@
 Name: QuickStart2
+Id: g=ead3aa5cb60124da53a5144c29502ef6
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=69ea40611c354a689645925fa3ef6045
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=4cbc127eac2f35b66acd86876feda0a0
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=182afdb796a567a4e492c3b8fa5cd3d5
     Type: PropertyType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=65e05203bf7ee731d7d09273b646ab2c
   Type: PropertyGroup
 - Name: PasswordPolicy
+  Id: g=0ea2d3ef3a82faf8b66b6a04b7aba836
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=0f5ddca7e9b41e428f8b60428e1439a8
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=1d1ef9627d7e945068ba4d3490caebcc
     Type: PropertyType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=ba69de5b34ac7942977b544c51634aca
     Type: PropertyType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=3b4e22e9ee94fbc5bfc19bb992c141f7
     Type: PropertyType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=0eae7140d729638b3ef8cfd29de0e3c1
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -55,11 +66,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RecipeSchema1
+  Id: g=d8537bd5bf89d46e2871826f5e1ce372
   Type: Alias
   DataType: NodeId
   Value: {"IdType":2,"Id":"d7122e156d0f95fb9d23b57d6534e2cb","Namespace":7}
   Children:
   - Name: Kind
+    Id: g=27631ee55a1d8d7e47bf1234149d7fa0
     Type: PropertyType
     DataType: NodeId
     Value: {"IdType":2,"Id":"d7122e156d0f95fb9d23b57d6534e2cb","Namespace":7}
